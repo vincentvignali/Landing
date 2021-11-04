@@ -1,0 +1,49 @@
+.container{
+margin: 12vw;
+width: 80vw;
+height: 50vh;
+/* background-color: rgba(245, 222, 179, 0.349); */
+/* border: rgb(107, 97, 97) solid 1px; */
+}
+
+.floating-left{
+position: absolute;
+top: -1em;
+left: -1em;
+}
+.container h2{
+font-size: 3em;
+padding: 0;
+margin: 0;
+letter-;
+}
+
+.cards{
+position: relative;
+margin: auto;
+width: vw;
+height: 50vh;
+background-color: rgba(245, 222, 179, 0.349);
+display: flex;
+justify-content: space-evenly;
+padding: 2vh;
+align-items: center;
+border-radius: 15px;
+}
+
+
+
+.card{
+background-image: url("../components/images/mesh_gradient.png");
+background-size: cover;
+width: 40%;
+height: 80%;
+border: wheat solid 1px;
+border-radius: 15px;
+color: whit;
+text-align: center;
+padding: 2vh;
+font-weight: 600;
+font-size: large;
+outline: auto;
+}

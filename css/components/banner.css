@@ -1,0 +1,32 @@
+.banner-section{
+background-image: url("../components/images/train.jpg");
+background-size: cover;
+width: 100vw;
+height: 50vw;
+padding: 5vw;
+display: flex;
+align-items: flex-end;
+margin-bottom: 10vh;
+}
+.banner-content{
+width: 50vw;
+
+}
+
+.banner-content a{
+text-align: center;
+background-color: rgba(245, 222, 179, 0.836);
+}
+
+.banner-content a:hover{
+text-align: center;
+background-color: rgba(245, 222, 179, 0.349);
+}
+
+.banner-content h1{
+color: white;
+}
+
+.banner-content p{
+color: white;
+}
